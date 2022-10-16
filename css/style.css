@@ -10,8 +10,7 @@ body{
     font-family: 'Tomorrow', sans-serif;
 }
 
-header{
-    background-color: purple;
+header{ 
     height: 80px;
 }
 
@@ -47,4 +46,9 @@ header{
     background: red;
     color: #26263e;
 
+}
+
+.galeria{
+    display: flex;
+    margin: 1px;
 }
