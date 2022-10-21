@@ -1,80 +1,94 @@
-
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&family=Russo+One&family=Tomorrow:wght@400;500;700&display=swap');
 
-body{
+body {
     width: 100%;
     height: auto;
-    background-color: #26263e; 
+    background-color: #26263e;
     color: white;
     font-family: 'Tomorrow', sans-serif;
 }
 
+.whats {
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 800px;
+    left: 1750px;
+    opacity: .3;
+    transition: .5s;
+}
 
-header{ 
+.whats:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+
+
+header {
     height: 80px;
     width: 100%;
     display: flex;
     position: fixed;
     z-index: +1;
     background-color: #26263e9f;
-    
+
 }
 
-.logo img{
+.logo img {
     width: 250px;
     height: 100px;
     padding-left: 10px;
     position: absolute;
     top: -20px
- 
-    
 }
 
-.cabecalho{
+.cabecalho {
     width: 1100px;
     height: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-left: 40em;
 }
 
-.cabecalho a{
+.cabecalho a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     transition: 0.5s;
     border-radius: 10px;
-    margin:15px;
-    padding: 15px;   
+    margin: 15px;
+    padding: 15px;
 }
 
-.cabecalho a:hover{
+.cabecalho a:hover {
     background: red;
     color: #26263e;
 
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 50px;
     font-size: 6em;
     font-family: 'Russo One', sans-serif;
-    color: #ff1616;  
-    text-shadow: 
-               -1px -1px 0px #FFF, 
-               -1px 1px 0px #FFF,                    
-                1px -1px 0px #FFF,                  
-                1px 0px 0px #FFF;
+    color: #ff1616;
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
 }
 
-.cards-bs{
-    display: flex;   
+.cards-bs {
+    display: flex;
 }
 
-.cards1{
+.cards1 {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -83,23 +97,23 @@ header{
     padding-bottom: 15px;
 }
 
-.cards1 h2{
+.cards1 h2 {
     padding-top: 10px;
     font-size: 20px;
 }
 
-.cards1 h3{
+.cards1 h3 {
     padding-top: 10px;
 }
 
-.cards1 p{
+.cards1 p {
     color: red;
     font-size: 30px;
     font-weight: 400;
     padding-top: 10px;
 }
 
-.btnDefault{
+.btnDefault {
     text-decoration: none;
     color: white;
     background-color: #ff1616;
@@ -108,20 +122,20 @@ header{
     transition: 0.5s;
 }
 
-.cards1 a:hover{
+.cards1 a:hover {
     background: white;
     color: #26263e;
     transition: 0.5s;
 }
 
-.vermais{
+.vermais {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     color: white;
 }
 
-.vermais ol a{
+.vermais ol a {
     text-decoration: none;
     color: white;
     background-color: #ff1616;
@@ -131,14 +145,14 @@ header{
     transition: 0.5s;
 }
 
-.vermais a:hover{
+.vermais a:hover {
     background: white;
     color: #26263e;
     transition: 0.5s;
     text-decoration: none;
 }
 
-.cadastro{
+.cadastro {
     background-image: url(../img/banner2.png);
     display: flex;
     width: 100%;
@@ -149,18 +163,23 @@ header{
     align-items: center;
 }
 
-.cadastro h1{
+.cadastro h1 {
     font-size: 70px;
-    font-family: 'Russo One,', sans-serif;  
+    font-family: 'Russo One,', sans-serif;
+    text-shadow:
+        -1px -1px 0px rgb(1, 1, 1),
+        -1px 1px 0px rgb(1, 1, 1),
+        1px -1px 0px rgb(1, 1, 1),
+        1px 0px 0px rgb(1, 1, 1); 
 }
 
-.email{
+.email {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.email input[type=email]{
+.email input[type=email] {
     width: 250%;
     height: 40px;
     margin: 10px 0;
@@ -173,11 +192,11 @@ header{
     text-align: center;
 }
 
-.assinar{
-    padding:10px
+.assinar {
+    padding: 10px
 }
 
-.assinar input[type=submit]{
+.assinar input[type=submit] {
     background-color: #26263e;
     border-radius: 10px;
     border: none;
@@ -188,8 +207,71 @@ header{
     transition: 0.5s;
 }
 
-.assinar input[type=submit]:hover{
+.assinar input[type=submit]:hover {
     background-color: white;
     color: #26263e;
     transition: 0.5s;
+}
+
+.localizacao{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.localizacao h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    font-size: 90px;
+    font-family: 'Russo One', sans-serif;
+    color: #ff1616;
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF; 
+}
+
+.localizacao p{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.texto{
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 100px;
+    width: 50%;
+ 
+    
+}
+
+.mapa{
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.rodape h1{
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.rodape h2{
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
 }
