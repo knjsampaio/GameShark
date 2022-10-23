@@ -351,6 +351,7 @@ header {
 
 .subtitulo{
     padding-top: 3%;
+    padding-bottom: 10px;
     font-size: 2em;
     font-family: 'Russo One', sans-serif;
     color: #ff1616;
