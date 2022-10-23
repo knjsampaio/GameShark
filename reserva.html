@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.min.css">
+    <link rel="stylesheet" href="css/gallery.theme.css">
+    <title>Reserva - Game Shark</title>
+</head>
+
+<body>
+    <div>
+        <!-- Menu header      -->
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="cabecalho">
+                <a href="index.html">Home</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+            </div>
+    </div>
+    <div class="formulario">
+        <h1 class="titulo titulo-reserva">Crie sua reserva online!</h1>
+        <div>
+            <ul>
+                <li>
+                    <h2 class="subtitulo">Regras e instruções</h2>
+                </li>
+                <li>Permitido apenas 1 item por reserva.</li>
+                <li>Permitido 1 reserva por cliente/CPF.</li>
+                <li>Prazo para retirada do produto é de 48 horas a contar da data e hora da realização da reserva.</li>
+                <li>Reservas não finalizadas ou retiradas são automaticamente canceladas.</li>
+                <li>Pagamento presencial na loja ao retirar o produto.</li>
+                <li>Reservas via WhatsApp são aceitas.</li>
+                <li>Preencha os campos com seus dados pessoais e esolha o item da lista.</li>
+                <li>Clique em Reservar para confirmar a reserva.</li>
+            </ul>
+        </div>
+        <form action="" method="get">
+            <div class="dados-reserva">
+                <h2 class="subtitulo">Dados Pessoais</h2>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Insira seu nome completo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Insira seu e-mail">
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel" placeholder="(11) 9 1234-5678" maxlength="11">
+                <label for="nasc">Data de nascimento</label>
+                <input type="date" id="nasc">
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf" placeholder="Insira seu CPF" maxlength="11">
+
+                <h2 class="subtitulo">Produto</h2>
+                <h3>Escolha o item</h3>
+                <select name="produtos" id="produtos">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="">Assassin's Creed Valhalla PS4</option>
+                    <option value="">Assassin's Creed Origins PS4</option>
+                    <option value="">Assassin's Creed Syndicate Xbox One</option>
+                    <option value="">Assassin's Creed Odyssey Xbox One</option>
+                    <option value="">Assassin's Creed Ezio Collection Xbox One</option>
+                    <option value="">Funko POP Kurt Kobain</option>
+                    <option value="">Funko POP Spider-Man</option>
+                    <option value="">Funko POP Dark Magician</option>
+                    <option value="">Funko POP Goku DBZ</option>
+                    <option value="">Funko POP Vegeta DBZ</option>
+                    <option value="">Funko POP Amy Winehouse</option>
+                    <option value="">Mortal Kombat 11 Ultimate PS5</option>
+                    <option value="">Mortal Kombat 11 Ultimate Xbox Series X/S</option>
+                    <option value="">Mortal Kombat XL Xbox One</option>
+                    <option value="">Tekken 5 PS4</option>
+                    <option value="">Tekken 5 Xbox One</option>
+                    <option value="">Syphon-Filter Black List Xbox One</option>
+                    <option value="">Ratchet & Clank PS4</option>
+                    <option value="">Stray Xbox One</option>
+                    <option value="">Life is Strange PS4</option>
+                    <option value="">Dead Space PS5</option>
+                    <option value="">Resident Evil 8 Village Xbox One</option>
+                    <option value="">Resident Evil 3 PS4</option>
+                    <option value="">Resident Evil 2 PS5</option>
+                    <option value="">Rise of the Tomb Raider Anniversary Edition PS4</option>
+                </select>
+                <input class="btnDefault" type="submit" value="Reservar">
+
+                <h2 class="subtitulo">Encomenda</h2>
+                <h2>Não encontrou o que precisa? Deixe sua mensagem e entramos em contato!</h2>
+                <label for="encomenda">Não esqueca de colocar o nome do produto que deseja.</label>
+                <textarea name="encomenda" id="encomenda" cols="30" rows="10"></textarea>
+                <input class="btnDefault" type="submit" value="Enviar solicitação">
+            </div>
+        </form>
+        <div class="localizacao">
+            <h1>Visite a nossa loja!</h1>
+            <div class="texto">
+                <p>Avenida França, 100. CEP 03815-123.</p>
+                <p>Liberdade, São Paulo - SP</p>
+                <p>Tel: (11) 2544-0000.</p>
+                <p>Whatsapp: (11) 99876-5432 (somente reservas).</p>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10343.631237327463!2d-46.63713209959479!3d-23.56751344097618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a00cc9896b%3A0x4d7fa8becba4e40d!2sLiberdade%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1666308563439!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        </main>
+        <footer class="rodape">
+            <img src="" alt="tubarao">
+            <h1>Game Shark Loja de Jogos, 2022.</h1>
+            <h2>Todos os direitos reservados.</h2>
+        </footer>
+    </div>
+</body>
+
+</html>

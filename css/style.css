@@ -108,7 +108,7 @@ header {
 
 .cards1 p {
     color: red;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     padding-top: 10px;
 }
@@ -116,6 +116,7 @@ header {
 .cards1 img{
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 .btnDefault {
@@ -169,6 +170,7 @@ header {
 }
 
 .cadastro h1 {
+    display: flex;
     font-size: 70px;
     font-family: 'Russo One,', sans-serif;
     text-shadow:
@@ -334,3 +336,86 @@ header {
     font-size: 0.8em;
     font-family: 'Russo One', sans-serif;
 }
+
+/* #region reserva.html*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-reserva{
+    font-size: 3em;
+    padding-top: 2em;
+}
+
+.subtitulo{
+    padding-top: 3%;
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    color: #ff1616;
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+}
+
+.formulario ul{
+    display: flex;  
+    flex-direction: column;
+    text-align:start;
+}
+
+.formulario ul li{
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.dados-reserva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 100px;
+}
+
+.dados-reserva label{
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+
+.dados-reserva input{
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    line-height: 20px;
+    font-family: 'Russo One', sans-serif;
+    color: #26263e;
+}
+
+.dados-reserva input:hover {
+    background: white;
+    color: #26263e;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.dados-reserva input[type=submit]{
+    width: 150px;
+}
+
+.dados-reserva select{
+    width: 30%;
+    border: none;
+    border-radius: 5px;   
+}
+
+#encomenda{
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    line-height: 10px;  
+}
+
+/* #endregion reserva*/
