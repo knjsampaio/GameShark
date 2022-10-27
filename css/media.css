@@ -20,7 +20,7 @@
 
 @media screen and (max-width:480px) {
 
- 
+
 html{
     overflow-x: hidden;
 }
@@ -41,6 +41,10 @@ header{
 
 .titulo{
     font-size: 80px;
+}
+
+.cards-bs ul li{
+  padding-bottom: 15px;
 }
 
 /* #region menu maburger */
@@ -74,9 +78,9 @@ header{
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 0.7rem;
 }
 
@@ -120,7 +124,7 @@ header{
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #f5f7f8;
+  background: #ff1616;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -186,5 +190,130 @@ header{
 }
 
 /* #endregion menu maburger */
+
+.localizacao{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.texto{
+  width: 100%;
+  padding-top: 5px;
+}
+
+.whats{
+  display: none;
+}
+
+.localizacao h1{
+  font-size: 50px;
+}
+
+.localizacao p{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.rodape{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding: 10px;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.rodape h1{
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.rodape h2{
+  font-size: 15px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  width: 100%;
+  height: 600px;
+  padding-top: 30%;
+  background-image: none;
+}
+
+.email input[type=email] {
+  width: 90%;
+  height: 40px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #26263e;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box-sobre{
+  background-image: linear-gradient(to right, #ff1616, #26263e);
+}
+
+.bloco1{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  padding: 5px;
+  
+}
+
+.bloco1 li p{
+  width: 95%;
+  font-size: 20px;
+  text-align: start;
+  padding-top: 5%;
+  
+}
+
+.bloco1 li img{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  display: none;
+  
+}
+
+.bloco2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.bloco2 li p{
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  padding-top: 5%;
+}
+
+.bloco2 li img{
+  width: 470px;
+  height: 314px;
+  border-radius: 10px;
+  
+}
 
 }
