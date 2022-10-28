@@ -1,18 +1,216 @@
+@media screen and (max-width:5000px){
+
+  nav{
+    display: none;
+  }
+}
+
 @media screen and (max-width:1600px) {
 
+  html{
+    overflow-x: hidden;
+  }
+
+nav{
+  display: none;
+}
+
+.topo{
+  width: 100%;
+}
+
+.cards1 li{
+  flex-basis: 30%;
+}
+
+.cards1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-bs ul li{
+  padding-bottom: 15px;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.localizacao h1{
+  font-size: 60px;
+}
+
+.localizacao p{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.bloco1 li img{
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.bloco2 li img{
+  width: 740px;
+  height: 428px;
+  border-radius: 10px;
+  
+}
  
+.whats {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 750px;
+  left: 1450px;
+  opacity: .3;
+  transition: .5s;
+}
+
+.whats:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
 }
 
 @media screen and (max-width:1400px) {
 
-   
+html{
+    overflow-x: hidden;
+  }
+
+nav{
+  display: none;
+}
+
+.topo{
+  width: 100%;
+}
+
+.cards1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-bs ul li{
+  padding-bottom: 15px;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.localizacao h1{
+  font-size: 60px;
+}
+
+.localizacao p{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.bloco1 li img{
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.bloco2 li img{
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  
+}
+
+.whats {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 750px;
+  left: 1300px;
+  opacity: .3;
+  transition: .5s;
+}
+
+.whats:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
 }
 
 @media screen and (max-width:1200px) {
 
-    
+html{
+    overflow-x: hidden;
+  }
+
+nav{
+  display: none;
 }
 
+.topo{
+  width: 100%;
+}
+
+.whats {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 750px;
+  left: 1050px;
+  opacity: .3;
+  transition: .5s;
+}
+
+.whats:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
+.cards-bs ul li{
+  padding-bottom: 15px;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.localizacao h1{
+  font-size: 50px;
+}
+
+.localizacao p{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.bloco1 li img{
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.bloco2 li img{
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  
+}
+
+
+}
 @media screen and (max-width:768px) {
 
 nav{

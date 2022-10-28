@@ -29,8 +29,6 @@ body {
     transition: .5s;
 }
 
-
-
 header {
     height: 80px;
     width: 100%;
@@ -103,7 +101,7 @@ header {
 }
 
 .cards1 li{
-    flex-basis: 50%;
+    flex-basis: 20%;
 }
 
 .cards1 h2 {
