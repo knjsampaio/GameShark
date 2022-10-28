@@ -15,7 +15,167 @@
 
 @media screen and (max-width:768px) {
 
-   
+nav{
+  display: none;
+}
+
+.whats{
+  display: none;
+}
+
+.container1{
+  width: 100%;
+}
+
+.logo img{
+  width: 230px;
+  height: auto;
+}
+
+.cabecalho {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 17em;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.topo{
+  display: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  width: 100%;
+}
+
+.cards1{
+  display: flex;
+  flex-basis: 100%;
+}
+
+.cards-bs ul li{
+  padding-bottom: 15px;
+}
+
+.email input[type=email] {
+  width: 150%;
+  height: 40px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #26263e;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.localizacao h1{
+  font-size: 50px;
+}
+
+.localizacao p{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.texto{
+  width: 100%;
+  padding-top: 5px;
+}
+
+.rodape{
+  display: flex;
+
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding: 5px;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.rodape h1{
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.rodape h2{
+  font-size: 15px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.bloco1{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  padding: 5px;
+  
+}
+
+.bloco1 li p{
+  width: 95%;
+  font-size: 20px;
+  text-align: start;
+  padding-top: 5%;
+  
+}
+
+.bloco1 li img{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  display: none;
+}
+
+.bloco2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.bloco2 li p{
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  padding-top: 5%;
+}
+
+.bloco2 li img{
+  width: 470px;
+  height: 314px;
+  border-radius: 10px;
+  
+}
+
 }
 
 @media screen and (max-width:480px) {
