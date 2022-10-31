@@ -1,4 +1,4 @@
-@media screen and (max-width:5000px){
+@media screen and (max-width:10000px){
 
   nav{
     display: none;
@@ -221,6 +221,7 @@ nav{
   display: none;
 }
 
+
 .container1{
   width: 100%;
 }
@@ -244,7 +245,7 @@ nav{
   font-size: 20px;
   transition: 0.5s;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
   padding: 15px;
 }
 
@@ -385,6 +386,10 @@ html{
 
 header{
     display: none;
+}
+
+nav{
+  display: block;
 }
 
 .topo{
@@ -619,7 +624,7 @@ header{
 }
 
 .box-sobre{
-  background-image: linear-gradient(to right, #ff1616, #26263e);
+  background-image: linear-gradient(to right, #000000, #26263e);
 }
 
 .bloco1{
@@ -672,6 +677,23 @@ header{
   height: 314px;
   border-radius: 10px;
   
+}
+
+.formulario ul li{
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.dados-reserva{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 10px;
+}
+
+.container1{
+  background-image: linear-gradient(to right, #000000, #26263e);
 }
 
 }
