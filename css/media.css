@@ -506,7 +506,7 @@ nav{
 
 .navbar .menu-items {
   padding-top: 120px;
-  box-shadow: inset 0 0 2000px #ff1616;
+  box-shadow: inset 500px 500px 5000px #36363ede;
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
@@ -673,7 +673,7 @@ nav{
 }
 
 .bloco2 li img{
-  width: 470px;
+  width: 450px;
   height: 314px;
   border-radius: 10px;
   
